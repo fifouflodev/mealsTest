@@ -1,0 +1,61 @@
+
+Objective : build a react-native application around meal recipes
+Goal:
+
+· to quickly define the real developer level
+
+· to understand how she/he proceed to work on project
+
+Subject:
+
+· using public API https://www.themealdb.com/api.php , create a little project and put it on Github/Bitbucket;
+
+· main features :
+
+o list of recipes with main info: photo, title, category;
+o search bar on the top of the screen, the list should be updated with the result of search query;
+o on click on one item, details screen should be displayed with more info about recipe: photo, title, category, and ingredients;
+
+· note: design does not matter
+
+Important:
+
+this test will mostly evaluate the quality of code!
+
+----------
+
+Search meal by name
+https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+
+List all meals by first letter
+https://www.themealdb.com/api/json/v1/1/search.php?f=a
+
+Lookup full meal details by id
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+
+Lookup a single random meal
+https://www.themealdb.com/api/json/v1/1/random.php
+
+List all meal categories
+https://www.themealdb.com/api/json/v1/1/categories.php
+
+List all Categories, Area, Ingredients
+https://www.themealdb.com/api/json/v1/1/list.php?c=list
+https://www.themealdb.com/api/json/v1/1/list.php?a=list
+https://www.themealdb.com/api/json/v1/1/list.php?i=list
+
+Filter by main ingredient
+https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
+
+Filter by Category
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+
+Filter by Area
+https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
+
+Meal Thumbnail Images (Add /preview to the end of the meal image URL)
+https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview
+
+Ingredient Thumbnail Images
+https://www.themealdb.com/images/ingredients/Lime.png
+https://www.themealdb.com/images/ingredients/Lime-Small.png
